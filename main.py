@@ -1,7 +1,7 @@
 # ===[ KEY SYSTEM ADDITION — DO NOT REMOVE OR EDIT EXISTING CODE ]===
 import requests, json, time, os
 
-API_URL = "https://yourdomain.com/api.php"  # 🔗 change this to your PHP API URL
+API_URL = "https://mjpanel.42web.io/api.php"  # 🔗 change this to your PHP API URL
 
 def check_key_valid(key):
     """Check key validity + mark as used via PHP API"""
